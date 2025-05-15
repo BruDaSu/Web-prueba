@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static('public'));
 app.use(express.json());
 
-const MONGO_URI = "mongodb+srv://60183377:K0A6MzsWIRCnCFS3@cluster0.srw55oy.mongodb.net/certus?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = "mongodb+srv://60183377:tZdn51uuhue0cUdO@cluster0.61pnwkw.mongodb.net/ayuda?retryWrites=true&w=majority&appName=Cluster0";
 
 mongosse.connect(MONGO_URI).then(()=>{
     console.log("Se conecto exitosamente");
